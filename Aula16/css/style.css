@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+a:hover {
+    background-color: violet;
+    }
+
+p::first-letter{
+    background-color: turquoise;
+}
+
+.nome:focus {
+    color: red;
+  }
+  
+  .sobrenome:focus {
+    color: lime;
+  }
+
+  .AA:checked {
+    height: 50px;
+    width: 50px;
+  }
+
+  li:nth-child(1) {
+    color: orange;
+    background-color: red;
+    }
+
+#BA:enabled{background-color: indigo;
+}
+
+#BC:disabled{background-color: yellow;}
+
+/* desafio 2
+seletores insira no mínimo 3 pseudo-classes ou pseudo-elementos que ainda
+não foram apresentados */
+
+
+li:nth-last-child(1) {
+    background-color: green;
+    }
+
+.abcde:empty{height: 100px;
+width: 1000px;
+background-color: orange;
+margin: 10px 0px ;}
+
+li:nth-of-type(2) {
+    background-color: rgb(255, 208, 0);
+  }
+
